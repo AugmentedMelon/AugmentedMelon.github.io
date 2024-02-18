@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#profile-pic {
+    display: inline-block; 
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: top; 
+    background-color: transparent; 
+}
+
+#profile-pic img {
+    width: 100%;
+    height: auto;
+}
+
+#information {
+    display: inline-block; 
+    vertical-align: top; 
+    width: calc(100% - 140px); 
+    margin-left: 30px; 
+}
+
+#content:after, #header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#follow-button {
+    padding: 5px 30px;
+}
+
+
+.item img {
+    height: 120px;
+    width: 120px;
+}
+
+.row {
+    margin-right: 10px;    
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.item img:hover {
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+.navbar-item:hover {
+    opacity: 1;
+}
+
+#follow-button, .item, .navbar-item {
+    cursor: pointer;
+}
+
+#pictures {
+    display: block;
+    margin-top: 70px; 
+}
+
+#pictures .item {
+    display: inline-block; 
+    margin: 10px; 
+    opacity: 1; 
+    width: 120px;
+    height: 120px; 
+    position: relative;
+}
+
+#pictures .item img {
+    width: 100%; 
+    height: auto; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
