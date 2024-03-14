@@ -1,0 +1,162 @@
+.MENU {
+    background-color: #4a4e57;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-family: "Reem Kufi";
+}
+
+.MENU .div {
+    background-color: #4a4e57;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+/* Title Section with Vector Image */
+.MENU .title {
+    position: absolute;
+    top: 62px;
+    left: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    width: 802px; /* Adjusted width to allow title to fit in one line */
+    height: 75px; /* Height of the title area */
+}
+
+.MENU .text-wrapper-2 {
+    font-family: 'Red Rose';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 60px;
+    white-space: nowrap; /* Prevents the title from wrapping */
+}
+
+.MENU .vector {
+    margin-left: 20px; /* Space between title and vector */
+    position: relative; /* Adjusted from absolute to relative */
+    top: 0; /* Align top with title */
+    width: 46px;
+    height: 42px;
+}
+
+
+/* Menu and Events */
+.MENU .menu-events {
+    position: absolute;
+    top: 89px;
+    right: 94px;
+    display: flex;
+    align-items: center;
+}
+
+/* Menu-Events Text */
+.menu, .events {
+    font-family: 'Red Rose';
+    font-weight: lighter;
+    font-size: 30px;
+    color: #ffffff; /* Text color set to white */
+    padding: 0 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+/* Address and Phone Icon with Text */
+.MENU .group {
+    position: absolute;
+    width: 376px; /* Width including icon */
+    height: 50px; /* Height */
+    top: 893px; /* Top position */
+    left: 1025px; /* Left position */
+    display: flex;
+    align-items: center;
+}
+
+.MENU .text-wrapper-4 {
+    font-family: 'Reem Kufi';
+    font-weight: 400;
+    color: #90afff;
+    font-size: 40px;
+    margin-left: 34px; /* Adjusted for the icon */
+}
+
+.MENU .location {
+    width: 24px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.MENU .group-2 {
+    position: absolute;
+    width: 329px; /* Width including icon */
+    height: 50px; /* Height */
+    top: 943px; /* Top position */
+    left: 1025px; /* Left position */
+    display: flex;
+    align-items: center;
+}
+
+.MENU .phone {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 18px;
+}
+
+
+
+.MENU .red-velvet{
+    position: absolute;
+    width: 268px;
+    height: 344px;
+    top: 166px;
+    left:214px;
+}
+
+.MENU .strawberry{
+    position: absolute;
+    width: 268px;
+    height: 347px;
+    top: 164px;
+    left:958px;
+}
+
+.MENU .dirty{
+    position: absolute;
+    width: 268px;
+    height: 358px;
+    top: 165px;
+    left:586px;
+}
+
+.MENU .caramel{
+    position: absolute;
+    width: 268px;
+    height: 344px;
+    top: 539px;
+    left:214px;
+}
+
+.MENU .chocolate{
+    position: absolute;
+    width: 311px;
+    height: 351px;
+    top: 539px;
+    left:562px;
+}
+
+.MENU .mango{
+    position: absolute;
+    width: 311px;
+    height: 351px;
+    top: 539px;
+    left: 936px;
+}
+

@@ -1,0 +1,118 @@
+/* Main container styling */
+.MAIN {
+    background-color: #4a4e57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: "Reem Kufi";
+}
+
+/* Inner container styling */
+.div {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background-color: #4a4e57;
+}
+
+/* Image styling */
+.blue, .coffee {
+    position: absolute;
+    width: 554px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.blue {
+    height: 292px;
+    top: 202px;
+    left: 94px;
+}
+
+.coffee {
+    height: 312px;
+    top: 584px;
+    left: 94px;
+}
+
+/* Title and vector image styling */
+.group-3.title-group {
+    position: absolute;
+    top: 62px;
+    left: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.text-wrapper-2 {
+    font-family: 'Red Rose';
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.vector {
+    margin-left: 20px; /* Adjusted to place after the title */
+}
+
+/* Address and phone styling */
+.group.location-group, .group.phone-group {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.group.location-group {
+    top: 893px;
+    left: 1025px;
+}
+
+.group.phone-group {
+    top: 943px;
+    left: 1025px;
+}
+
+.text-location, .text-phone {
+    font-size: 40px;
+    color: #90AFFF;
+    margin-left: 10px;
+}
+
+.location-icon {
+    width: 24px;
+    height: 35px;
+}
+
+.phone-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Berkeleyside quote styling */
+.from-berkeleyside {
+    position: absolute;
+    top: 255px;
+    left: 748px;
+    width: 626px;
+    font-family: 'Reem Kufi';
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/* Menu and events styling */
+.group-4 {
+    position: absolute;
+    top: 89px;
+    right: 94px;
+    display: flex;
+    align-items: center;
+}
+
+.text-wrapper-3, .text-wrapper-4 {
+    font-family: 'Red Rose';
+    font-weight: lighter;
+    font-size: 30px;
+    color: #ffffff; /* Text color set to white */
+    padding: 0 15px;
+    cursor: pointer;
+}
