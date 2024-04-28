@@ -1,6 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        FINAL
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melon's Study Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Melon's Study Timer</h1>
+
+        <div class="timer" id="timer">
+            <div class="timer-circle">15:00</div>
+        </div>
+
+        <div class="control-buttons">
+            <button onclick="togglePauseResume()">Pause</button>
+            <button onclick="restartTimer()">Restart</button>
+            <button onclick="setStartTime()">Choose Time</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
 </html>
